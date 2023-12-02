@@ -4,15 +4,15 @@ defmodule Chimney do
   """
 
   @doc """
-  Hello world.
+  Run all smoke tests
 
   ## Examples
 
-      iex> Chimney.hello
-      :world
+      iex> Chimney.run()
+      :ok
 
   """
-  def hello do
-    :world
+  def run() do
+    :ok
   end
 end
